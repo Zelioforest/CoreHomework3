@@ -1,3 +1,5 @@
 public interface MyInyerface {
-    public void check();
+    void check(Bicycle bicycle);
+    void check(Car bicycle);
+    void check(Truck bicycle);
 }

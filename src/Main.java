@@ -2,14 +2,14 @@
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
-        ourPark car1 = new Car("car1", 4);
-        ourPark car2 = new Car("car2", 4);
+        Car car1 = new Car("car1", 4);
+        Car car2 = new Car("car2", 4);
 
-        ourPark truck = new Truck("truck1", 6);
-        ourPark truck2 = new Truck("truck2", 8);
+        Truck truck = new Truck("truck1", 6);
+        Truck truck2 = new Truck("truck2", 8);
 
-        ourPark bicycle = new Bicycle("bicycle1", 2);
-        ourPark bicycle2 = new Bicycle("bicycle2", 2);
+        Bicycle bicycle = new Bicycle("bicycle1", 2);
+        Bicycle bicycle2 = new Bicycle("bicycle2", 2);
 
 
 
